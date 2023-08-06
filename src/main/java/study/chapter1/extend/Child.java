@@ -1,4 +1,4 @@
-package study.extend;
+package study.chapter1.extend;
 
 public class Child extends Parent {
 

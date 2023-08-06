@@ -1,4 +1,4 @@
-package study.overriding;
+package study.chapter1.overriding;
 
 public class Parent {
 
