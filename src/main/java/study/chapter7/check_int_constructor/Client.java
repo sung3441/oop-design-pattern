@@ -1,4 +1,4 @@
-package study.chapter3.enum_after;
+package study.chapter7.check_int_constructor;
 
 public class Client {
 
