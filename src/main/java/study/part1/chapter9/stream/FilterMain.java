@@ -3,6 +3,7 @@ package study.part1.chapter9.stream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class FilterMain {
 
@@ -19,6 +20,6 @@ public class FilterMain {
         }
 
         // stream 적용 후
-        List<Integer> filterList = list.stream().filter(i -> i % 2 == 0).toList();
+        List<Integer> filterList = list.stream().filter(i -> i % 2 == 0).collect(Collectors.toList());
     }
 }

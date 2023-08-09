@@ -15,7 +15,8 @@ public class SomeObject {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof SomeObject that)) return false;
+        if (!(o instanceof SomeObject)) return false;
+        SomeObject that = (SomeObject) o;
         return intField == that.intField && Objects.equals(stringField, that.stringField);
     }
 

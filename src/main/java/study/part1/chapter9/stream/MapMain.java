@@ -3,6 +3,7 @@ package study.part1.chapter9.stream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class MapMain {
 
@@ -17,6 +18,6 @@ public class MapMain {
         }
 
         // stream 적용 후
-        List<Integer> mapList = list.stream().map(i -> i * 10).toList();
+        List<Integer> mapList = list.stream().map(i -> i * 10).collect(Collectors.toList());
     }
 }
